@@ -1,22 +1,473 @@
 {
-  "students": [
-    {
-      "id": "ef48",
-      "name": "",
-      "number": "",
-      "course": "full stack"
-    },
-    {
-      "id": "2741",
-      "name": "java",
-      "number": "7777996541",
-      "course": "backend"
-    },
-    {
-      "id": "3d71",
-      "name": "mongodb",
-      "number": "65",
-      "course": "backend"
-    }
-  ]
+    "slider1": [
+        {
+            "id": 1,
+            "image": "https://images-static.nykaa.com/uploads/60090952-9d44-4719-9e16-2a595657752e.jpg?tr=w-120,cm-pad_resize",
+            "category": "sliderAllCategory"
+        },
+        {
+            "id": 2,
+            "image": "https://images-static.nykaa.com/uploads/18ade5f2-2977-45fa-98aa-4d855742a062.jpg?tr=w-120,cm-pad_resize",
+            "category": "sliderAllCategory"
+        },
+        {
+            "id": 3,
+            "image": "https://images-static.nykaa.com/uploads/c85e1a76-a8a7-495d-be0d-2717be8b6bfc.jpg?tr=w-120,cm-pad_resize",
+            "category": "sliderAllCategory"
+        },
+        {
+            "id": 4,
+            "image": "https://images-static.nykaa.com/uploads/79a2c586-8b2b-4569-85ec-314513ab6851.jpg?tr=w-120,cm-pad_resize",
+            "category": "sliderAllCategory"
+        },
+        {
+            "id": 5,
+            "image": "https://images-static.nykaa.com/uploads/59f4aa4b-fb9b-4807-ab6b-cacd63ef9737.jpg?tr=w-120,cm-pad_resize",
+            "category": "sliderAllCategory"
+        },
+        {
+            "id": 6,
+            "image": "https://images-static.nykaa.com/uploads/bd9f920d-df34-4f08-a33b-3a300a565e52.jpg?tr=w-120,cm-pad_resize",
+            "category": "sliderAllCategory"
+        },
+        {
+            "id": 7,
+            "image": "https://images-static.nykaa.com/uploads/e9a5c60c-cb05-4a1a-862e-a70f596f7ec7.jpg?tr=w-120,cm-pad_resize",
+            "category": "sliderAllCategory"
+        },
+        {
+            "id": 8,
+            "image": "https://images-static.nykaa.com/uploads/be3e2956-9abc-4161-8e68-b9229e81b8d6.jpg?tr=w-120,cm-pad_resize",
+            "category": "sliderAllCategory"
+        },
+        {
+            "id": 9,
+            "image": "https://images-static.nykaa.com/uploads/f02ddc1f-0310-4c07-aea8-480907497f79.jpg?tr=w-120,cm-pad_resize",
+            "category": "sliderAllCategory"
+        },
+        {
+            "id": 10,
+            "image": "https://images-static.nykaa.com/uploads/dfed18f9-d610-4196-a23f-87c1a18cfed0.jpeg?tr=w-120,cm-pad_resize",
+            "category": "sliderAllCategory"
+        },
+        {
+            "id": 11,
+            "image": "https://images-static.nykaa.com/uploads/e69e59d8-4fba-4eba-8873-e4e874ef5a78.jpg?tr=w-120,cm-pad_resize",
+            "category": "sliderAllCategory"
+        },
+        {
+            "id": 12,
+            "image": "https://images-static.nykaa.com/uploads/a47dd998-eea4-4f83-9dd6-ff739781fcb1.jpg?tr=w-120,cm-pad_resize",
+            "category": "sliderAllCategory"
+        },
+        {
+            "id": 13,
+            "image": "https://images-static.nykaa.com/uploads/d859ccaa-6854-4153-9d4d-d6ec48f69c4c.jpg?tr=w-120,cm-pad_resize",
+            "category": "sliderAllCategory"
+        }
+    ],
+    "women": [
+        {
+            "id": 1,
+            "image": "https://images-static.nykaa.com/uploads/7e6c8800-9a28-4d03-a159-c6a678c5f226.jpg?tr=w-400,cm-pad_resize",
+            "category": "women's_cards"
+        },
+        {
+            "id": 2,
+            "image": "https://images-static.nykaa.com/uploads/3ddecb2d-ab45-44f2-9ba8-41192a9717a5.jpg?tr=w-400,cm-pad_resize",
+            "category": "women's_cards"
+        },
+        {
+            "id": 3,
+            "image": "https://images-static.nykaa.com/uploads/6eed2b50-5c3c-40da-b0f5-ef8a650cc21e.png?tr=w-400,cm-pad_resize",
+            "category": "women's_cards"
+        }
+    ],
+    "spotLight": [
+        {
+            "id": 1,
+            "image": "https://images-static.nykaa.com/uploads/9fef0f45-1a32-48db-8328-99a9ea8ac555.jpg?tr=w-240,cm-pad_resize",
+            "category": "spotLight Covertable",
+            "buy": "Up to 50% off",
+            "detail": "Stylish & elegant dresses"
+        },
+        {
+            "id": 2,
+            "image": "https://images-static.nykaa.com/uploads/cc12ee2b-5eef-49f7-baa7-9b75eb430ea8.jpg?tr=w-240,cm-pad_resize",
+            "category": "spotLight Covertable",
+            "buy": "Up to 50% off",
+            "detail": "8 till late needs"
+        },
+        {
+            "id": 3,
+            "image": "https://images-static.nykaa.com/uploads/617416db-0629-45c6-86dd-029ea0f1ae0a.jpg?tr=w-240,cm-pad_resize",
+            "category": "spotLight Covertable",
+            "buy": "Up to 65% off",
+            "detail": "Extra 10% off*"
+        },
+        {
+            "id": 4,
+            "image": "https://images-static.nykaa.com/uploads/a1a7b5a4-4c60-46c2-bceb-89691909d5fd.jpg?tr=w-240,cm-pad_resize",
+            "category": "spotLight Covertable",
+            "buy": "Min 40% off",
+            "detail": "Dynamic athletic styles"
+        },
+        {
+            "id": 5,
+            "image": "https://images-static.nykaa.com/uploads/95aaabc0-9087-49a0-9568-661f8c32ba2f.jpg?tr=w-240,cm-pad_resize",
+            "category": "spotLight Covertable",
+            "buy": "Up to 35% off",
+            "detail": "Gen-Z dresses across US"
+        },
+        {
+            "id": 6,
+            "image": "https://images-static.nykaa.com/uploads/a2317ca3-1cc1-4f6a-ba6b-4d8c718581a5.jpg?tr=w-240,cm-pad_resize",
+            "category": "spotLight Covertable",
+            "buy": "Min 20% off",
+            "detail": "Ethnic printed anarkalis"
+        },
+        {
+            "id": 7,
+            "image": "https://images-static.nykaa.com/uploads/a366a5d6-eed4-418b-9f46-a98c79afb26a.jpg?tr=w-240,cm-pad_resize",
+            "category": "spotLight Covertable",
+            "buy": "Min 50% off",
+            "detail": "Iconic denim styles"
+        },
+        {
+            "id": 8,
+            "image": "https://images-static.nykaa.com/uploads/33b7ac11-1479-4db8-983b-7aef0f6770ce.jpg?tr=w-240,cm-pad_resize",
+            "category": "spotLight Covertable",
+            "buy": "Up to 70% off",
+            "detail": "Trendy stylish menswear"
+        },
+        {
+            "id": 9,
+            "image": "https://images-static.nykaa.com/uploads/39cafae9-dba6-486a-9757-5d79334081ed.jpg?tr=w-240,cm-pad_resize",
+            "category": "spotLight Covertable",
+            "buy": "Up to 65% off",
+            "detail": "Cute fits for lil' ones"
+        },
+        {
+            "id": 10,
+            "image": "https://images-static.nykaa.com/uploads/231a2894-c67c-46b7-887e-b1d4e60fd8c9.jpg?tr=w-240,cm-pad_resize",
+            "category": "spotLight Covertable",
+            "buy": "Up to 40% off",
+            "detail": "For aesthetic home"
+        }
+    ],
+    "exclusiveLabels": [
+        {
+            "id": 1,
+            "image": "https://images-static.nykaa.com/uploads/f5804d05-2c5c-4861-a589-db9aa9cd4e9e.jpg?tr=w-240,cm-pad_resize",
+            "category": "exclusiveLabels",
+            "detail": "Flowy, flirty, comfy dresses to twirl in "
+        },
+        {
+            "id": 2,
+            "image": "https://images-static.nykaa.com/uploads/f11d51db-9f67-4fff-95ec-ffd319a6c8c0.jpg?tr=w-240,cm-pad_resize",
+            "category": "exclusiveLabels",
+            "detail": "Season's hottest dresses from London "
+        },
+        {
+            "id": 3,
+            "image": "https://images-static.nykaa.com/uploads/aa09eebf-766d-4fe8-8886-43790548d9c7.jpg?tr=w-240,cm-pad_resize",
+            "category": "exclusiveLabels",
+            "detail": "Occasion ready, modern ethnic styles"
+        },
+        {
+            "id": 4,
+            "image": "https://images-static.nykaa.com/uploads/29ab7807-8cde-43e9-bc2e-f695820e63ee.jpg?tr=w-240,cm-pad_resize",
+            "category": "exclusiveLabels",
+            "detail": "Anarkalis for a dreamy festive look"
+        },
+        {
+            "id": 5,
+            "image": "https://images-static.nykaa.com/uploads/8786a4d3-c295-4b61-ba4f-6601ba432dc1.jpg?tr=w-240,cm-pad_resize",
+            "category": "exclusiveLabels",
+            "detail": "Hottest activewearfrom the USA"
+        },
+        {
+            "id": 6,
+            "image": "https://images-static.nykaa.com/uploads/43c35247-34ab-4f6a-9b78-e3182f55db8b.jpg?tr=w-240,cm-pad_resize",
+            "category": "exclusiveLabels",
+            "detail": "Super stylish, chic & sensuous dresses"
+        },
+        {
+            "id": 7,
+            "image": "https://images-static.nykaa.com/uploads/11bb5b66-8f29-4eb4-a8d3-0c54f8dfb1d1.jpg?tr=w-240,cm-pad_resize",
+            "category": "exclusiveLabels",
+            "detail": "Sweet & sassy styles for everyday fashion"
+        },
+        {
+            "id": 8,
+            "image": "https://images-static.nykaa.com/uploads/632478a9-2b47-491e-8936-168c1aa59ccb.jpg?tr=w-240,cm-pad_resize",
+            "category": "exclusiveLabels",
+            "detail": "USA's Favorite brands to your doorstep"
+        }
+    ],
+    "trendsofSeasons": [
+        {
+            "id": 1,
+            "image": "https://images-static.nykaa.com/uploads/8263e1c0-7231-48c0-937c-bc14088c73fa.jpg?tr=w-300,cm-pad_resize",
+            "category": "trendsofSeasons",
+            "buy": "Up to 70% off"
+        },
+        {
+            "id": 2,
+            "image": "https://images-static.nykaa.com/uploads/5590b250-4cf5-44a2-9a24-d57434cd9b75.jpg?tr=w-300,cm-pad_resize",
+            "category": "trendsofSeasons",
+            "buy": "Up to 70% off"
+        },
+        {
+            "id": 3,
+            "image": "https://images-static.nykaa.com/uploads/e59545ac-b1f2-49d3-bdbd-0b46d25e7cce.jpg?tr=w-300,cm-pad_resize",
+            "category": "trendsofSeasons",
+            "buy": "Up to 60% off"
+        },
+        {
+            "id": 4,
+            "image": "https://images-static.nykaa.com/uploads/eb659b79-db39-41f5-a2cd-e08225da215e.jpg?tr=w-300,cm-pad_resize",
+            "category": "trendsofSeasons",
+            "buy": "Up to 75% off"
+        },
+        {
+            "id": 5,
+            "image": "https://images-static.nykaa.com/uploads/09f7e8b6-d52a-4fc1-8006-74a062af9927.jpg?tr=w-300,cm-pad_resize",
+            "category": "trendsofSeasons",
+            "buy": "Up to 70% off"
+        },
+        {
+            "id": 6,
+            "image": "https://images-static.nykaa.com/uploads/4a193e02-3184-4221-9257-9929fadb3fdd.jpg?tr=w-300,cm-pad_resize",
+            "category": "trendsofSeasons",
+            "buy": "Min 30% off"
+        },
+        {
+            "id": 7,
+            "image": "https://images-static.nykaa.com/uploads/916bf88c-bb55-4d0a-913e-9521533d312a.jpg?tr=w-300,cm-pad_resize",
+            "category": "trendsofSeasons",
+            "buy": "Min 40% off"
+        },
+        {
+            "id": 8,
+            "image": "https://images-static.nykaa.com/uploads/cfc7d4cb-e12c-4c56-a8ea-103a4b6edef6.jpg?tr=w-300,cm-pad_resize",
+            "category": "trendsofSeasons",
+            "buy": "Up to 70% off"
+        },
+        {
+            "id": 9,
+            "image": "https://images-static.nykaa.com/uploads/8554f9f2-c733-42c0-a5b1-edaa472c6c72.jpg?tr=w-300,cm-pad_resize",
+            "category": "trendsofSeasons",
+            "buy": "Up to 60% off"
+        },
+        {
+            "id": 10,
+            "image": "https://images-static.nykaa.com/uploads/10a9ee7e-215c-4fbd-bdf4-33a8b40e17db.jpg?tr=w-300,cm-pad_resize",
+            "category": "trendsofSeasons",
+            "buy": "Min 40% off"
+        },
+        {
+            "id": 11,
+            "image": "https://images-static.nykaa.com/uploads/4e8a8d2d-ea9b-4e4e-8156-70604ab37259.jpg?tr=w-300,cm-pad_resize",
+            "category": "trendsofSeasons",
+            "buy": "Up to 70% off"
+        }
+    ],
+    "newonnykaa": [
+        {
+            "id": 1,
+            "image": "https://images-static.nykaa.com/uploads/99bbc64d-a93c-4473-92d5-29179409409b.jpg?tr=w-240,cm-pad_resize",
+            "category": "newonnykaa"
+        },
+        {
+            "id": 2,
+            "image": "https://images-static.nykaa.com/uploads/8ae82883-9efc-4183-bab8-6a9f48880869.jpg?tr=w-240,cm-pad_resize",
+            "category": "newonnykaa"
+        },
+        {
+            "id": 3,
+            "image": "https://images-static.nykaa.com/uploads/2a2346a1-5eea-44c4-93c0-4202c99e79f8.jpg?tr=w-240,cm-pad_resize",
+            "category": "newonnykaa"
+        },
+        {
+            "id": 4,
+            "image": "https://images-static.nykaa.com/uploads/a75916f4-b9e4-45a6-8534-68dbe0444543.jpg?tr=w-240,cm-pad_resize",
+            "category": "newonnykaa"
+        },
+        {
+            "id": 5,
+            "image": "https://images-static.nykaa.com/uploads/8b6dffea-4614-4978-9ccf-0b1fac006517.jpg?tr=w-240,cm-pad_resize",
+            "category": "newonnykaa"
+        },
+        {
+            "id": 6,
+            "image": "https://images-static.nykaa.com/uploads/81fc9368-7c3b-4d44-b108-7e5cabd84cc8.jpg?tr=w-240,cm-pad_resize",
+            "category": "newonnykaa"
+        },
+        {
+            "id": 7,
+            "image": "https://images-static.nykaa.com/uploads/0ae65839-fed2-494e-af9b-423fc1a0a4e2.jpg?tr=w-240,cm-pad_resize",
+            "category": "newonnykaa"
+        }
+    ],
+    "stylishpicks": [
+        {
+            "id": 1,
+            "image": "https://images-static.nykaa.com/uploads/cb4f3916-bde9-4f1f-ae54-ebf56ccf723d.jpg?tr=w-240,cm-pad_resize",
+            "category": "stylishpicks"
+        },
+        {
+            "id": 2,
+            "image": "https://images-static.nykaa.com/uploads/02e4f5f1-1087-4851-81df-99b6aa093b62.jpg?tr=w-240,cm-pad_resize",
+            "category": "stylishpicks"
+        },
+        {
+            "id": 3,
+            "image": "https://images-static.nykaa.com/uploads/beb323dc-f58d-4906-b67b-572d3f7fd439.jpg?tr=w-240,cm-pad_resize",
+            "category": "stylishpicks"
+        },
+        {
+            "id": 4,
+            "image": "https://images-static.nykaa.com/uploads/491b7669-c631-473b-93dd-f3a97f6f6e13.jpg?tr=w-240,cm-pad_resize",
+            "category": "stylishpicks"
+        },
+        {
+            "id": 5,
+            "image": "https://images-static.nykaa.com/uploads/90d64abb-ca99-4f02-a1b9-66bf0cae24ae.jpg?tr=w-240,cm-pad_resize",
+            "category": "stylishpicks"
+        },
+        {
+            "id": 6,
+            "image": "https://images-static.nykaa.com/uploads/e93cf02a-364d-410e-b56d-3731933625b7.jpg?tr=w-240,cm-pad_resize",
+            "category": "stylishpicks"
+        }
+    ],
+    "stores": [
+        {
+            "id": 1,
+            "image": "https://images-static.nykaa.com/uploads/8f13793a-0156-49af-b20c-2323ec6cde3f.jpg?tr=w-171.42857142857142,cm-pad_resize",
+            "name": "Women",
+            "category": "stores"
+        },
+        {
+            "id": 2,
+            "image": "https://images-static.nykaa.com/uploads/c1f68994-bc6d-4fb0-9cac-d0ce47d67838.jpg?tr=w-171.42857142857142,cm-pad_resize",
+            "name": "Men",
+            "category": "stores"
+        },
+        {
+            "id": 3,
+            "image": "https://images-static.nykaa.com/uploads/49e6ae70-6e96-44d6-8d56-a5359731b8ec.jpg?tr=w-171.42857142857142,cm-pad_resize",
+            "name": "Kids",
+            "category": "stores"
+        },
+        {
+            "id": 4,
+            "image": "https://images-static.nykaa.com/uploads/a66486e0-8eb4-4ef1-a6be-4a135f16432a.jpg?tr=w-171.42857142857142,cm-pad_resize",
+            "name": "Home",
+            "category": "stores"
+        },
+        {
+            "id": 5,
+            "image": "https://images-static.nykaa.com/uploads/585628e7-8d3a-45b1-aedc-195daff883ff.jpg?tr=w-171.42857142857142,cm-pad_resize",
+            "name": "Luxe Edit",
+            "category": "stores"
+        },
+        {
+            "id": 6,
+            "image": "https://images-static.nykaa.com/uploads/d92a7ba6-ed6b-4d4e-a3ed-2524525ee042.jpg?tr=w-171.42857142857142,cm-pad_resize",
+            "name": "Hidden Gems",
+            "category": "stores"
+        }
+    ],
+    "sliderTrending": [
+        {
+            "id": 1,
+            "image": "https://images-static.nykaa.com/uploads/47ff7d98-0526-4f0e-8320-7a33f8c846b9.jpeg?tr=cm-pad_resize,w-300",
+            "category": "trendingSlider"
+        },
+        {
+            "id": 2,
+            "image": "https://images-static.nykaa.com/uploads/85266a2b-e0dc-4e41-87c8-a3bd3c85066e.gif",
+            "category": "trendingSlider"
+        }
+    ],
+    "marquee": [
+        {
+            "id": 1,
+            "image": "https://images-static.nykaa.com/uploads/9d48d8e5-59b1-4532-ab4f-684ff686ef06.jpg?tr=cm-pad_resize,w-1200",
+            "category": "marqueeTag"
+        }
+    ],
+    "brandsofLuxe": [
+        {
+            "id": 1,
+            "image": "https://images-static.nykaa.com/uploads/bf717669-4aa9-46a7-9966-04e9fb897279.jpg?tr=cm-pad_resize,w-200",
+            "category": "brandsofLuxe"
+        },
+        {
+            "id": 2,
+            "image": "https://images-static.nykaa.com/uploads/e8df588d-2da8-41a4-9c20-57d893ed0e18.jpg?tr=cm-pad_resize,w-200",
+            "category": "brandsofLuxe"
+        },
+        {
+            "id": 3,
+            "image": "https://images-static.nykaa.com/uploads/463b338f-b18b-412a-a2f6-4735b566f1f3.jpg?tr=cm-pad_resize,w-200",
+            "category": "brandsofLuxe"
+        },
+        {
+            "id": 4,
+            "image": "https://images-static.nykaa.com/uploads/313137e6-4a7b-4990-92ab-a5d845abf562.jpg?tr=cm-pad_resize,w-200",
+            "category": "brandsofLuxe"
+        },
+        {
+            "id": 5,
+            "image": "https://images-static.nykaa.com/uploads/a4e15880-1c7e-49f6-bd26-47e287056680.jpg?tr=cm-pad_resize,w-200",
+            "category": "brandsofLuxe"
+        },
+        {
+            "id": 6,
+            "image": "https://images-static.nykaa.com/uploads/6dab596f-bea4-4e89-9753-bfd695c341e4.jpg?tr=cm-pad_resize,w-200",
+            "category": "brandsofLuxe"
+        },
+        {
+            "id": 7,
+            "image": "https://images-static.nykaa.com/uploads/26f7a7ee-6611-4a95-a7ab-718ce5c8d545.jpg?tr=cm-pad_resize,w-200",
+            "category": "brandsofLuxe"
+        },
+        {
+            "id": 8,
+            "image": "https://images-static.nykaa.com/uploads/57626c17-03f8-447f-8811-3fd2ad5bf6cb.jpg?tr=cm-pad_resize,w-200",
+            "category": "brandsofLuxe"
+        },
+        {
+            "id": 9,
+            "image": "https://images-static.nykaa.com/uploads/1abeccda-e5d8-4ce0-927d-6abb44977587.jpg?tr=cm-pad_resize,w-200",
+            "category": "brandsofLuxe"
+        },
+        {
+            "id": 10,
+            "image": "https://images-static.nykaa.com/uploads/d0c0fb93-8e0c-4094-9eb7-1268d69e80d7.jpg?tr=cm-pad_resize,w-200",
+            "category": "brandsofLuxe"
+        }
+    ],
+    "getGifting": [
+        {
+            "id": 1,
+            "image": "https://images-static.nykaa.com/uploads/a92dac26-400d-4158-af51-a7d247658835.jpg?tr=cm-pad_resize,w-600",
+            "category": "getGifting"
+        },
+        {
+            "id": 2,
+            "image": "https://images-static.nykaa.com/uploads/97a082e3-76ba-4671-8a10-97c867ff5b2f.jpg?tr=cm-pad_resize,w-600",
+            "category": "getGifting"
+        }
+    ],
+    "campusAmbed": [
+        {
+            "id": 1,
+            "image": "https://images-static.nykaa.com/uploads/389fbbcd-4cf7-47fa-a662-6e53018eabd3.jpg?tr=cm-pad_resize,w-1200",
+            "category": "campusAmbed"
+        }
+    ]
 }
